@@ -1,0 +1,30 @@
+{
+  "name": "flux_notify",
+  "version": "1.0.0",
+  "description": "Basic notification system skeleton based on Flux pattern",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify ./js/index.js -o ./js/bundle/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+
+    "url": "git+https://github.com/akomlosi/flux_notify.git"
+  },
+  "author": "akomlosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akomlosi/flux_notify/issues"
+  },
+  "homepage": "https://github.com/akomlosi/flux_notify#readme",
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "events": "^1.1.0",
+    "jquery": "^2.2.3",
+    "object-assign": "^4.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}

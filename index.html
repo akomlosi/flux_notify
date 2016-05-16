@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/bundle/bundle.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <p>Send events</p>
+        NAME : <input id="name" value=""/>
+        <div>
+            <span> {NAME} has come online.</span>
+            <button id="event_fav">Send event</button>
+        </div>
+        <div>
+            <span>{NAME} has sent a new message for you.</span>
+            <button id="event_msg">Send event</button>
+        </div>
+        <div>
+            <span> {NAME} has uploaded a new content. </span>
+            <button id="event_new_content">Send event</button>
+        </div>
+    </div>
+    <p>EVENTS</p>
+    <ul id="event_list" class="list-group"></ul>
+</body>
+</html>
